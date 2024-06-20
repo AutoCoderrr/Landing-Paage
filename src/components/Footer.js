@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footer-section-one">
         <div className="footer-logo-container">
           {/* <img src={Logo} alt="" /> */}
-          <div className="footerlogobb">   <a href="">BB FOODS</a></div>
+          <div className="footerlogobb">   <span>BB FOODS</span></div>
         </div>
         <div className="footer-icons">
           <a  href="https://www.youtube.com/"><BsTwitter /></a> 

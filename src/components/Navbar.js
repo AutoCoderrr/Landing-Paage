@@ -21,7 +21,7 @@
 // };
 
 // export default Navbar;
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 const Navbar = () => {
  
   return (
@@ -29,10 +29,10 @@ const Navbar = () => {
      <div className="nav-logo-container">
         {/* <img src={} alt="" /> */}
       </div>
-      <div className="logobb">   <a href="">BB FOODS</a></div>
+      <div className="logobb">   <span>BB FOODS</span></div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
+      <span>Home</span>
+      <span>About</span>
      
         {/* <a href="">Contact</a> */}
         <a href="#contact">Contact</a> 
