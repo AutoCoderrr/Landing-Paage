@@ -4,7 +4,7 @@ import { BsTwitter } from "react-icons/bs";
 // import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
+
 import { RiWhatsappFill } from "react-icons/ri";
 import { IoCall } from "react-icons/io5";
 
@@ -34,7 +34,7 @@ const Footer = () => {
         {/* <a href="tel:9011433198"><img src="" alt="Call 9011433198" /></a> */}
         </div>
         <div className="footer-section-columns">
-          <span href="tel:9011433198" alt="Call 9011433198"  ><IoCall /> call:- 9011433198</span>
+          <span  alt="Call 9011433198"  ><IoCall /> call:- 9011433198</span>
           
           <span> Email--bbfood.iceland@gmail.com</span>
           <span> Terms & Conditions</span>
